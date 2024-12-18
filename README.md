@@ -87,7 +87,7 @@ CREATE TABLE User (
   age INT
 );
 INSERT INTO User (name, email, age) VALUES ('Alice', 'alice@example.com', 30);
-```
 
-- `Помилка валідації або генерації SQL для User: Поле name не може бути null`
-- `Невалідний формат email адреси`
+Помилка валідації або генерації SQL для User: Поле name не може бути null
+Невалідний формат email адреси
+```
